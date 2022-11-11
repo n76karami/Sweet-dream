@@ -1,0 +1,31 @@
+#p-cat{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.input-cat{
+  /* border:1px solid red ; */
+  display: flex;
+  justify-content: center;
+  height: 10%;
+  margin-bottom: 20px;
+}
+.input-cat input{
+  width: 30%;
+  margin: 10px ;
+  font-size: 20px;
+}
+#add-cat{
+  cursor: pointer;
+  margin: 10px auto;
+  padding: 15px 35px;
+  background-color: rgba(32, 190, 40, 0.856);
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 12px;
+
+}

@@ -1,0 +1,134 @@
+.p_login{
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+nav{
+  /* border: 1px solid red; */
+  width: 30%;
+  display: flex;
+  justify-content:space-around;
+  margin-bottom: 10px;
+}
+nav button{
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: rgb(0, 140, 255);
+  color: aliceblue;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.p_select{
+  background-color: rgb(172, 204, 206);
+  width: 600px;
+  height: 400px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 0 8px gray;
+}
+.p_select:hover{
+  box-shadow: 0 0 15px gray;
+}
+.Register{
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  /* border: 1px solid green; */
+  position: fixed;
+  top: calc(50vh - 120px);
+  left : calc(50vw - 250px);
+
+}
+.Register div{
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Register div input{
+  width: 50%;
+  border-radius: 12px;
+  font-size: 18px;
+  /* height: 30px; */
+  /* margin-right: 20px; */
+}
+.Register div label{
+  width: 40%;
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#reg_btn{
+  cursor: pointer;
+  background-color: rgb(0, 140, 255);
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 8px 26px;
+  font-size: 20px;
+  /* font-weight: bold; */
+}
+#reg_btn:hover{
+  background-color: black;
+  color:  rgb(0, 140, 255);
+}
+.login{
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  /* border: 1px solid blue; */
+  position: fixed;
+  top: calc(50vh - 120px);
+  left : calc(50vw - 250px);
+}
+.login div{
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.login div input{
+  width: 50%;
+  border-radius: 12px;
+  font-size: 18px;
+  /* height: 30px; */
+  /* margin-right: 20px; */
+}
+.login  div label{
+  width: 40%;
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#login_btn{
+  cursor: pointer;
+  background-color: rgb(0, 140, 255);
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 8px 26px;
+  font-size: 20px;
+  /* font-weight: bold; */
+}
+#login_btn:hover{
+  background-color: black;
+  color:  rgb(0, 140, 255);
+}

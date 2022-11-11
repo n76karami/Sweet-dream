@@ -1,0 +1,38 @@
+.navbar{
+  /* position: fixed; */
+  background-color: rgb(0, 140, 255);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content:flex-start;
+}
+.navbar button{
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  padding: 5px 20px;
+}
+.navbar button img{
+  width: 50px;
+  background-color: rgb(0, 140, 255);
+}
+.modal{
+  z-index: 10;
+  border: 1px solid black;
+  position: fixed;
+  width: 150px;
+  height: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modal:hover{
+  background-color:black;
+}
+.modal button{
+  cursor: pointer;
+  background-color: transparent;
+  color: aliceblue;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+}

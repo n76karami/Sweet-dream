@@ -1,0 +1,55 @@
+.p-payment{
+  margin: 5px auto;
+  /* border: 1px solid black;   */
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  
+}
+#table{
+  width: 800px;
+  height: auto;
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+  /* position: absolute;
+  top: 200px; */
+  margin: 20px;
+}
+#table th{
+  border: 1px solid black;
+  text-align: center;
+  width: 500px;
+  height: 50px;
+  background-color: aqua;
+
+}
+#table td{
+  border: 1px solid black;
+  text-align: center;
+
+  height: 50px;
+}
+.p-payment h1{
+  /* width: 500px; */
+  /* border: 1px solid black; */
+  text-align: center;
+  /* position: absolute;
+  top: 10px; */
+  margin: 10px auto;
+}
+#onpay{
+  cursor: pointer;
+  /* position: absolute;
+  bottom: 50px; */
+  background-color: rgb(15, 199, 15);
+  padding: 10px 40px;
+  font-size: 20px;
+}
+/* #factors{
+  position: absolute;
+  bottom: 5px;
+} */
